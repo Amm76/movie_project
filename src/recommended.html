@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FlexFlix</title>
+  <link rel="stylesheet" href="recommended.css">
+</head>
+<body>
+  <h1>FlexFlix's Movies site</h1>
+  <h2>We will sort the movies by year (newer to older) for you!</h2>
+  <div>
+    <input type="text" id="movieTitle" placeholder="Enter movie title" />
+    <button onclick="movieSearch()">Search</button>
+  </div>
+  <div class="movie-container">
+    <ul class="movie-list" id="gridContainer"></ul>
+    <div id="movieDetailsContainer"></div>
+  </div>
+  <div id="recommendedMoviesContainer"></div>
+  <button id="backButton">Back</button>
+  <script src="recomended.js"></script>
+</body>
+</html>

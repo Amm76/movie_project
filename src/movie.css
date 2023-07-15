@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #87A0B2;
+}
+
+
+.header {
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.movie-poster {
+  position: absolute;
+  top: 65%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: auto;
+}
+
+#addToWatchlistButton {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #587489;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border: 10px solid #587489;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.movie-details-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #87A0B2;
+}
+
+.movie-details-container h2,
+.movie-details-container p {
+  margin: 0;
+}
+
+.cast-and-crew-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #87A0B2;
+}
+
+.cast-and-crew-container h3 {
+  margin-top: 0;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#backButton {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #587489;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 35px;
+}

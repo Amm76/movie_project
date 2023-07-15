@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movies App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="menu">
+    <div class="menu-logo" onclick="window.location.href = 'index.html'">Flex's Flix</div>
+    <p>Movie Search Engine!!!</p>
+    <div class="p1">Watch - Rate - Discover</div>
+    <div class="search">
+      <input type="text" id="searchInput" class="searchTerm" placeholder="Enter movie title">
+      <button id="searchButton" class="searchButton">Search</button>
+    </div>
+    <div class="menu-buttons">
+      <button class="recommend-button" onclick="window.location.href = 'recommended.html';">Movie Recommendations</button>
+      <button class="watchlist-button" onclick="window.location.href = 'watchlist.html'">Watchlist</button>
+    </div>
+  </div>
+  <div id="movies" class="movie-container"></div>
+  <div id="loadMoreContainer">
+    <button id="loadMoreButton">Load More</button>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

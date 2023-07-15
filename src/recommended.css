@@ -1,0 +1,144 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  padding: 2rem;
+  margin: 0;
+  background-image: url("back.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #FFF;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 20px;
+  background-color: #587489;
+  border: none;
+  border-radius: 60px;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #587489;
+  color: #FFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #87A0B2;
+}
+
+.movie-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-item {
+  background-color: rgba(131, 156, 175, 0.5);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(108, 108, 108, 0.1);
+  color: #FFF;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.movie-item img {
+  width: 100px;
+  height: auto;
+}
+
+.movie-details {
+  margin-top: 10px;
+}
+
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.movie-id,
+.movie-year {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+#backButton {
+  display: block;
+  margin: 0 auto;
+  background-color: #587489;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.movie-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-list li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.poster-image {
+  width: 100px;
+  height: auto;
+}
+
+#movieDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
